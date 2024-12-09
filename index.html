@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wedding page</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="">
+      <a href="/" class="logo">Wedding</a>
+      <a href="#" class="menu"><ion-icon name="menu-outline"></ion-icon></a>
+      <ul class="nav">
+        <li>
+          <a class="nav-btn active" href="/" onClick="resetHeader();">
+            <ion-icon name="home-outline"></ion-icon>
+          </a>
+        </li>
+        <li><a class="nav-btn" href="#" data-target="about">about</a></li>
+        <li><a class="nav-btn" href="#" data-target="services">services</a></li>
+        <li>
+          <a class="nav-btn" href="#" data-target="portfolio">portfolio</a>
+        </li>
+        <li><a class="nav-btn" href="#" data-target="contact">contact</a></li>
+      </ul>
+      <div class="search">
+        <input type="text" placeholder="enter the search" />
+        <ion-icon name="search-outline"></ion-icon>
+      </div>
+    </header>
+    <!-- mobile navigation -->
+    <!-- banner -->
+    <div class="banner container-fluid">
+      <div class="bg-slide slide-1 active">
+        <div class="content">
+          <h1>Wedding</h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+        </div>
+        <div class="circle bg">
+          <img src="./images/wedding-1.jpg" alt="" />
+          <div class="circle large">
+            <img src="./images/wedding-1.jpg" alt="" />
+            <div class="circle small">
+              <img src="./images/wedding-1.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-slide slide-2">
+        <div class="content">
+          <h1>Ceremony</h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+        </div>
+        <div class="circle bg">
+          <img src="./images/wedding-2.jpg" alt="" />
+          <div class="circle large">
+            <img src="./images/wedding-2.jpg" alt="" />
+            <div class="circle small">
+              <img src="./images/wedding-2.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-slide slide-3">
+        <div class="content">
+          <h1>Honneymoon</h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+        </div>
+        <div class="circle bg">
+          <img src="./images/wedding-3.jpg" alt="" />
+          <div class="circle large">
+            <img src="./images/wedding-3.jpg" alt="" />
+            <div class="circle small">
+              <img src="./images/wedding-3.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <ul class="slide-loader">
+        <li><a href="" class="slide-btn active" data-target="slide-1">1</a></li>
+        <li><a href="" class="slide-btn" data-target="slide-2">2</a></li>
+        <li><a href="" class="slide-btn" data-target="slide-3">3</a></li>
+      </ul>
+
+      <div class="share">
+        <p>share</p>
+        <a href="#"><ion-icon name="share-social-outline"></ion-icon></a>
+      </div>
+    </div>
+    <!-- Main start -->
+    <main>
+      <!-- about section -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="row">
+            <h1>About Us</h1>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="img-box">
+                <img src="./images/about-1.jpg" alt="" class="img-fluid" />
+                <img src="./images/about-2.jpg" alt="" class="corner-img" />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <img src="./images/bg-tree.png" alt="" class="section-bg-img" />
+              <h4>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged.
+              </p>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged.
+              </p>
+              <a href="#" class="section-btn">Discover more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- service section -->
+      <section id="services" class="services">
+        <div class="container">
+          <div class="row">
+            <h1>Our Services</h1>
+          </div>
+          <div class="row d-flex justify-content-center align-items-center">
+            <!-- service 1 -->
+            <div
+              class="col-lg-4 d-flex justify-content-center align-items-cente"
+            >
+              <div class="card">
+                <div class="img-box">
+                  <img src="./images/services-1.jpg" alt="" />
+                </div>
+                <div class="details">
+                  <h4>Wedding Plan</h4>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book.
+                  </p>
+                  <a href="#" class="section-btn">Discover more</a>
+                </div>
+              </div>
+            </div>
+            <!-- service 2 -->
+            <div
+              class="col-lg-4 d-flex justify-content-center align-items-cente"
+            >
+              <div class="card">
+                <div class="img-box">
+                  <img src="./images/services-2.jpg" alt="" />
+                </div>
+                <div class="details">
+                  <h4>Wedding Plan</h4>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book.
+                  </p>
+                  <a href="#" class="section-btn">Discover more</a>
+                </div>
+              </div>
+            </div>
+            <!-- service 3 -->
+            <div
+              class="col-lg-4 d-flex justify-content-center align-items-cente"
+            >
+              <div class="card">
+                <div class="img-box">
+                  <img src="./images/services-3.jpg" alt="" />
+                </div>
+                <div class="details">
+                  <h4>Wedding Plan</h4>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book.
+                  </p>
+                  <a href="#" class="section-btn">Discover more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- portfolio section -->
+      <section id="portfolio" class="portfolio">
+        <div class="container">
+          <div class="row">
+            <h1>Our Portfolio</h1>
+          </div>
+          <ul id="portfolio-filters" class="d-flex justify-content-center">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-wedding">Wedding</li>
+            <li data-filter=".filter-ceremony">Ceremony</li>
+            <li data-filter=".filter-honeymoon">Honeymoon</li>
+          </ul>
+
+          <div class="row portfolio-container">
+            <!-- image 1 -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-wedding">
+              <div class="portfolio-img">
+                <img
+                  src="./images/portfolio/portfolio-1.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="portfolio-info">
+                <h4>Wedding Planning 1</h4>
+                <p>Wedding planning 1</p>
+                <a
+                  href="./images/portfolio/portfolio-1.jpg"
+                  alt=""
+                  class="portfolio-lightbox preview-link"
+                  data-gallery="portfolioGallery"
+                >
+                  <ion-icon name="add-outline"></ion-icon>
+                </a>
+                <a href="#" class="details-link" title="More Detail">
+                  <ion-icon name="link-outline"></ion-icon>
+                </a>
+              </div>
+            </div>
+            <!-- image 2 -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-wedding">
+              <div class="portfolio-img">
+                <img
+                  src="./images/portfolio/portfolio-2.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="portfolio-info">
+                <h4>Wedding Planning 1</h4>
+                <p>Wedding planning 1</p>
+                <a
+                  href="./images/portfolio/portfolio-2.jpg"
+                  alt=""
+                  class="portfolio-lightbox preview-link"
+                  data-gallery="portfolioGallery"
+                >
+                  <ion-icon name="add-outline"></ion-icon>
+                </a>
+                <a href="#" class="details-link" title="More Detail">
+                  <ion-icon name="link-outline"></ion-icon>
+                </a>
+              </div>
+            </div>
+            <!-- image 3 -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-wedding">
+              <div class="portfolio-img">
+                <img
+                  src="./images/portfolio/portfolio-3.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="portfolio-info">
+                <h4>Wedding Planning 1</h4>
+                <p>Wedding planning 1</p>
+                <a
+                  href="./images/portfolio/portfolio-3.jpg"
+                  alt=""
+                  class="portfolio-lightbox preview-link"
+                  data-gallery="portfolioGallery"
+                >
+                  <ion-icon name="add-outline"></ion-icon>
+                </a>
+                <a href="#" class="details-link" title="More Detail">
+                  <ion-icon name="link-outline"></ion-icon>
+                </a>
+              </div>
+            </div>
+            <!-- image 4 -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-wedding">
+              <div class="portfolio-img">
+                <img
+                  src="./images/portfolio/portfolio-4.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="portfolio-info">
+                <h4>Wedding Planning 1</h4>
+                <p>Wedding planning 1</p>
+                <a
+                  href="./images/portfolio/portfolio-4.jpg"
+                  alt=""
+                  class="portfolio-lightbox preview-link"
+                  data-gallery="portfolioGallery"
+                >
+                  <ion-icon name="add-outline"></ion-icon>
+                </a>
+                <a href="#" class="details-link" title="More Detail">
+                  <ion-icon name="link-outline"></ion-icon>
+                </a>
+              </div>
+            </div>
+            <!-- image 5 -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-wedding">
+              <div class="portfolio-img">
+                <img
+                  src="./images/portfolio/portfolio-5.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="portfolio-info">
+                <h4>Wedding Planning 1</h4>
+                <p>Wedding planning 1</p>
+                <a
+                  href="./images/portfolio/portfolio-5.jpg"
+                  alt=""
+                  class="portfolio-lightbox preview-link"
+                  data-gallery="portfolioGallery"
+                >
+                  <ion-icon name="add-outline"></ion-icon>
+                </a>
+                <a href="#" class="details-link" title="More Detail">
+                  <ion-icon name="link-outline"></ion-icon>
+                </a>
+              </div>
+            </div>
+            <!-- image 6 -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-wedding">
+              <div class="portfolio-img">
+                <img
+                  src="./images/portfolio/portfolio-6.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="portfolio-info">
+                <h4>Wedding Planning 1</h4>
+                <p>Wedding planning 1</p>
+                <a
+                  href="./images/portfolio/portfolio-6.jpg"
+                  alt=""
+                  class="portfolio-lightbox preview-link"
+                  data-gallery="portfolioGallery"
+                >
+                  <ion-icon name="add-outline"></ion-icon>
+                </a>
+                <a href="#" class="details-link" title="More Detail">
+                  <ion-icon name="link-outline"></ion-icon>
+                </a>
+              </div>
+            </div>
+            <!-- image 7 -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-wedding">
+              <div class="portfolio-img">
+                <img
+                  src="./images/portfolio/portfolio-7.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="portfolio-info">
+                <h4>Wedding Planning 1</h4>
+                <p>Wedding planning 1</p>
+                <a
+                  href="./images/portfolio/portfolio-7.jpg"
+                  alt=""
+                  class="portfolio-lightbox preview-link"
+                  data-gallery="portfolioGallery"
+                >
+                  <ion-icon name="add-outline"></ion-icon>
+                </a>
+                <a href="#" class="details-link" title="More Detail">
+                  <ion-icon name="link-outline"></ion-icon>
+                </a>
+              </div>
+            </div>
+            <!-- image 8 -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-wedding">
+              <div class="portfolio-img">
+                <img
+                  src="./images/portfolio/portfolio-8.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="portfolio-info">
+                <h4>Wedding Planning 1</h4>
+                <p>Wedding planning 1</p>
+                <a
+                  href="./images/portfolio/portfolio-8.jpg"
+                  alt=""
+                  class="portfolio-lightbox preview-link"
+                  data-gallery="portfolioGallery"
+                >
+                  <ion-icon name="add-outline"></ion-icon>
+                </a>
+                <a href="#" class="details-link" title="More Detail">
+                  <ion-icon name="link-outline"></ion-icon>
+                </a>
+              </div>
+            </div>
+            <!-- image 9 -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-wedding">
+              <div class="portfolio-img">
+                <img
+                  src="./images/portfolio/portfolio-9.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="portfolio-info">
+                <h4>Wedding Planning 1</h4>
+                <p>Wedding planning 1</p>
+                <a
+                  href="./images/portfolio/portfolio-9.jpg"
+                  alt=""
+                  class="portfolio-lightbox preview-link"
+                  data-gallery="portfolioGallery"
+                >
+                  <ion-icon name="add-outline"></ion-icon>
+                </a>
+                <a href="#" class="details-link" title="More Detail">
+                  <ion-icon name="link-outline"></ion-icon>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact section -->
+      <section id="contact" class="contact"></section>
+    </main>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./js/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
